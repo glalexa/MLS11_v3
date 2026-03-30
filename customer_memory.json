@@ -1,0 +1,64 @@
+{
+  "ACCT_1002": [
+    {
+      "timestamp": "2024-01-10T09:15:00+00:00",
+      "query": "My 4G data keeps cutting out near downtown. It's been happening all week.",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "Advised to toggle airplane mode and reset APN settings. Local tower under maintenance until Jan 15."
+    },
+    {
+      "timestamp": "2024-01-14T14:30:00+00:00",
+      "query": "The data issue is still happening after the maintenance window.",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "escalate",
+      "response_summary": "Escalated to field technician team. Ticket #NET-4421 raised. Customer advised to expect resolution within 48 hours."
+    },
+    {
+      "timestamp": "2026-03-13T20:31:31.335100+00:00",
+      "query": "My bill is higher than usual this month. Could it be related to my recent data issues?",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "inform",
+      "response_summary": "Hello Alexandra!\n\nI understand your concern about your bill being higher than usual this month. There are a few factors that could contribute to this increase, especially if you've experienced recent "
+    },
+    {
+      "timestamp": "2026-03-13T20:31:36.247533+00:00",
+      "query": "It says I used 12GB of data but my plan is 15GB. Why would I be charged extra?",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "inform",
+      "response_summary": "Hello Alexandra!\n\nThank you for your patience. Since your plan includes 15GB of data and you used 12GB, you should not be charged for data overages. However, there are a couple of reasons why you migh"
+    },
+    {
+      "timestamp": "2026-03-13T20:31:38.783886+00:00",
+      "query": "Can you request a refund of the extra charges and confirm the ticket number?",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "refund",
+      "response_summary": "Hello Alexandra!\n\nI can certainly help you with that. To proceed with requesting a refund for any extra charges, I will need to create a ticket on your behalf. \n\nPlease hold on for a moment while I ga"
+    }
+  ],
+  "ACCT_1000": [
+    {
+      "timestamp": "2026-03-13T20:31:27.217062+00:00",
+      "query": "My signal keeps dropping in my apartment and I'm losing calls constantly. What can I do?",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "Hello Dorcas! I'm sorry to hear that you're experiencing signal issues in your apartment. Let's go through some troubleshooting steps to see if we can resolve this problem.\n\n1. **Check Your Location**"
+    }
+  ],
+  "ACCT_1001": [
+    {
+      "timestamp": "2026-03-13T20:31:39.358039+00:00",
+      "query": "I want a full refund of $120 from my last three bills. Cancel all charges immediately.",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "escalate",
+      "response_summary": "Hello Dessie! This refund request exceeds the standard agent authorisation limit. Large refunds and full charge waivers require approval from a senior billing manager. I'm escalating your case now \u2014 a"
+    }
+  ]
+}
