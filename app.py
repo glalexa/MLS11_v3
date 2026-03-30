@@ -172,14 +172,14 @@ def retrieve_context(query: str, intent: str, df: pd.DataFrame, n: int = 2) -> s
 
 
 # ─── OPENAI CLIENT ────────────────────────────────────────────────────────────
+# ─── OPENAI CLIENT ────────────────────────────────────────────────────────────
 def _build_client():
     """Build OpenAI client from session state (called inside graph nodes)."""
-    api_key  = st.session_state.get("openai_api_key", os.environ.get("OPENAI_API_KEY",""))
-    api_base = st.session_state.get("openai_api_base","")
+    api_key  = "gl-U2FsdGVkX1+Kin1aC7JbvGpmmXLtPG21g1m52xo50XBTK+GqO68ZJD7ywkrVejYL"
+    api_base = "https://aibe.mygreatlearning.com/openai/v1"
     if api_key and api_base:
         return OpenAI(api_key=api_key, base_url=api_base)
     return OpenAI(api_key=api_key)
-
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  LANGGRAPH STATE + NODE DEFINITIONS
